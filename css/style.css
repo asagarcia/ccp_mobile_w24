@@ -69,5 +69,20 @@ h3 {
     grid-template-columns: 300px 300px;
     margin: auto;
     width: 100%;
-    height: auto;
+    height: 100%;
+    padding: 0;
 }
+
+@keyframes example-animation {
+
+  }
+  
+  .animated-element {
+    animation: example-animation 1s infinite;
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .animated-element {
+      animation: none !important;
+    }
+  }
