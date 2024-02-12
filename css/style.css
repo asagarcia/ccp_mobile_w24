@@ -55,6 +55,6 @@ h2 {
 }
 .grid-discussion {
     display: grid;
-
     grid-template-columns: 300px 300px;
+    margin: auto;
 }
